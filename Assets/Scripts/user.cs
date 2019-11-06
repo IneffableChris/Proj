@@ -14,12 +14,7 @@ public class user : MonoBehaviour
     public Input inputPincode;
     public Input inputPincodeConfirm;
 
-    private string newUsername;
-    private int newPincode;
-    private int newPincodeConfirm;
-    private bool newUsertype;
-    private bool newGender;
-    private int newAvatarID;
+    
 
     //Mehr Variablen
     // Start is called before the first frame update
@@ -34,26 +29,32 @@ public class user : MonoBehaviour
 
     }
 
-    public bool SaveUser()
-    {  
-        
-    
+    public void getUsername(string newUsername)
+    {
+        //Check if username exists
 
-        if (pincode != newPincode && newPincode == newPincodeConfirm)
+        //if not:
+        username = newUsername;
+    }
+    public void getPin(int newPincode, int newPincodeconfirm)
+    {
+        if(newPincode == newPincodeconfirm)
         {
             pincode = newPincode;
         }
         else
         {
-            //Fehler: Der selbe Pincode darf nicht nochmal genommen werden oder die neuen Pincodes stimmen nicht überein
+            //Error: "Username existiert bereits"
         }
-        username = newUsername;
-        usertype = newUsertype;
-        gender = newGender;
-        avatarID = newAvatarID;
-
-        //schreibe auf lokales System
-
-        return false;
     }
+    public void getGender(bool newGender)
+    {
+        gender =  newGender;
+    }
+    public void getType(bool newUsertype)
+    {
+        usertype = newUsertype;
+    }
+
+    
 }
