@@ -22,7 +22,7 @@ public class addUser : MonoBehaviour
         
     }
 
-    public addUser SaveUser(string newUsername, int newPincode, int newPincodeConfirme, bool newUsertype, bool newSex, int newAvatarID)
+    public void SaveUser(string newUsername, int newPincode, int newPincodeConfirme, bool newUsertype, bool newSex, int newAvatarID)
     {
         if (pincode != newPincode && newPincode == newPincodeConfirme)
         {
@@ -39,7 +39,7 @@ public class addUser : MonoBehaviour
         avatarID = newAvatarID;
 
         //schreibe auf lokales System
-        return 0;
+        //return addUser;
     }
 
 

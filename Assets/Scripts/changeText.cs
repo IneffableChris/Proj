@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class changeText : MonoBehaviour
 {
-    public void ChangeText(getAvatar)
-    {
+    //public void ChangeText(getAvatar)
+    //{
 
-    }
-    {
+    //}
+    //{
 
-    }
+    //}
 }
