@@ -613,7 +613,6 @@ GameObject:
   - component: {fileID: 965909407}
   - component: {fileID: 965909406}
   - component: {fileID: 965909410}
-  - component: {fileID: 965909409}
   m_Layer: 5
   m_Name: btnGame
   m_TagString: Untagged
@@ -683,7 +682,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 965909407}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 965909410}
+        m_MethodName: switchScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Categories
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &965909407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,18 +730,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965909404}
   m_CullTransparentMesh: 0
---- !u!114 &965909409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965909404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46da3b393d8370d46a694749d77cc22f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &965909410
 MonoBehaviour:
   m_ObjectHideFlags: 0
