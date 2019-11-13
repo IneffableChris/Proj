@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: 
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Categories.unity
     guid: c6e119ee9b0d11749a9d883b6067a43b
@@ -18,12 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/SelectUser.unity
     guid: f9c720916051e834e9e69f5c4864e726
   - enabled: 1
-    path: Assets/Scenes/SelectAvatar.unity
-    guid: c16a8ac84e9adf545b4b10ad00fef7c5
-  - enabled: 1
     path: Assets/Scenes/ParentStart.unity
     guid: 9abbd2d3cef762b45908cdc3ff8c8fd3
   - enabled: 1
-    path: Assets/Scenes/Games.unity
-    guid: befb32172569b9e459ea262ca689a561
+    path: Assets/Scenes/GameInstruction.unity
+    guid: 8897c9aaf119e954db2a50d1570a4b54
+  - enabled: 1
+    path: Assets/Scenes/Games/Game1.unity
+    guid: 45296d043114a0a4ca82936e25033b85
+  - enabled: 1
+    path: Assets/Scenes/UserManager.unity
+    guid: 28eb8f4c85456d54c93662ee47663ffc
   m_configObjects: {}

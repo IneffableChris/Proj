@@ -657,7 +657,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Categories
+          m_StringArgument: SelectUser
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1384438902
@@ -819,7 +819,7 @@ Camera:
   m_GameObject: {fileID: 1688908816}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
