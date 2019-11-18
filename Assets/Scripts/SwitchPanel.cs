@@ -4,20 +4,30 @@ using UnityEngine;
 
 public class SwitchPanel : MonoBehaviour
 {
-    public GameObject Panel;
+    public GameObject PanelToOpen;
+    public GameObject PanelToClose;
 
     public void OpenPanel()
     {
-        if (Panel != null)
+        if (PanelToOpen != null)
         {
-            Panel.SetActive(true);
+            PanelToOpen.SetActive(true);
         }
     }
     public void ClosePanel()
     {
-        if(Panel != null)
+        if(PanelToClose != null)
         {
-            Panel.SetActive(false);
+            PanelToClose.SetActive(false);
         }
     }
+    public void ChangePanel()
+    {
+        if(PanelToClose != null && PanelToOpen != null)
+        {
+            PanelToClose.SetActive(false);
+            PanelToOpen.SetActive(true);
+        }
+    }
+
 }
