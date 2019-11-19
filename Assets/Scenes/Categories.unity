@@ -504,10 +504,10 @@ RectTransform:
   m_Father: {fileID: 2017314935}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 277.35, y: -254.95}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &71722416
 MonoBehaviour:
@@ -553,7 +553,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 71722419}
-        m_MethodName: EnteredPin
+        m_MethodName: EnteredResult
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -608,10 +608,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 71722414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca6c3c4def5cc64c892f17c1182a5db, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f9bcc268458cc94ba40734252a8cf46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinInput: 
+  randomNumber1: 0
+  randomNumber2: 0
 --- !u!1 &81528911
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,8 +715,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000021432847, y: 0.000019073}
-  m_SizeDelta: {x: 1920, y: 925.1}
+  m_AnchoredPosition: {x: -1.8, y: 0.25004}
+  m_SizeDelta: {x: 1858.9, y: 925.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &92939960
 MonoBehaviour:
@@ -2416,10 +2417,10 @@ RectTransform:
   m_Father: {fileID: 2017314935}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 97.350006, y: -344.95}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &409905912
 MonoBehaviour:
@@ -3411,7 +3412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &541962604
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4107,10 +4108,10 @@ RectTransform:
   m_Father: {fileID: 2017314935}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 187.35, y: -74.95}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &656467530
 MonoBehaviour:
@@ -4155,8 +4156,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 656467533}
-        m_MethodName: EnteredPin
+      - m_Target: {fileID: 71722419}
+        m_MethodName: EnteredResult
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4211,10 +4212,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 656467528}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca6c3c4def5cc64c892f17c1182a5db, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f9bcc268458cc94ba40734252a8cf46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinInput: 
+  randomNumber1: 0
+  randomNumber2: 0
 --- !u!1 &683996188
 GameObject:
   m_ObjectHideFlags: 0
@@ -4510,10 +4512,10 @@ RectTransform:
   m_Father: {fileID: 2017314935}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 277.35, y: -74.95}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &704523473
 MonoBehaviour:
@@ -4558,8 +4560,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 704523476}
-        m_MethodName: EnteredPin
+      - m_Target: {fileID: 71722419}
+        m_MethodName: EnteredResult
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4614,10 +4616,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 704523471}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca6c3c4def5cc64c892f17c1182a5db, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f9bcc268458cc94ba40734252a8cf46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinInput: 
+  randomNumber1: 0
+  randomNumber2: 0
 --- !u!1 &740422385
 GameObject:
   m_ObjectHideFlags: 0
@@ -6570,10 +6573,10 @@ RectTransform:
   m_Father: {fileID: 2017314935}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 187.35, y: -254.95}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1166232008
 MonoBehaviour:
@@ -6618,8 +6621,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1166232011}
-        m_MethodName: EnteredPin
+      - m_Target: {fileID: 71722419}
+        m_MethodName: EnteredResult
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6674,10 +6677,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1166232006}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca6c3c4def5cc64c892f17c1182a5db, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f9bcc268458cc94ba40734252a8cf46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinInput: 
+  randomNumber1: 0
+  randomNumber2: 0
 --- !u!1 &1211573174
 GameObject:
   m_ObjectHideFlags: 0
@@ -7579,10 +7583,10 @@ RectTransform:
   m_Father: {fileID: 2017314935}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 277.35, y: -164.95}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1356812497
 MonoBehaviour:
@@ -7627,8 +7631,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1356812500}
-        m_MethodName: EnteredPin
+      - m_Target: {fileID: 71722419}
+        m_MethodName: EnteredResult
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7683,10 +7687,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1356812495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca6c3c4def5cc64c892f17c1182a5db, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f9bcc268458cc94ba40734252a8cf46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinInput: 
+  randomNumber1: 0
+  randomNumber2: 0
 --- !u!1 &1365745397
 GameObject:
   m_ObjectHideFlags: 0
@@ -8240,10 +8245,10 @@ RectTransform:
   m_Father: {fileID: 2017314935}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 97.350006, y: -254.95}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1431362657
 MonoBehaviour:
@@ -8288,8 +8293,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1431362660}
-        m_MethodName: EnteredPin
+      - m_Target: {fileID: 71722419}
+        m_MethodName: EnteredResult
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8344,10 +8349,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1431362655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca6c3c4def5cc64c892f17c1182a5db, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f9bcc268458cc94ba40734252a8cf46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinInput: 
+  randomNumber1: 0
+  randomNumber2: 0
 --- !u!1 &1440310756
 GameObject:
   m_ObjectHideFlags: 0
@@ -8383,10 +8389,10 @@ RectTransform:
   m_Father: {fileID: 2017314935}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 97.350006, y: -164.95}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1440310758
 MonoBehaviour:
@@ -8431,8 +8437,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1440310761}
-        m_MethodName: EnteredPin
+      - m_Target: {fileID: 71722419}
+        m_MethodName: EnteredResult
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8487,10 +8493,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1440310756}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca6c3c4def5cc64c892f17c1182a5db, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f9bcc268458cc94ba40734252a8cf46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinInput: 
+  randomNumber1: 0
+  randomNumber2: 0
 --- !u!1 &1481761775
 GameObject:
   m_ObjectHideFlags: 0
@@ -8670,8 +8677,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000025034, y: -0.00089073}
-  m_SizeDelta: {x: 1920, y: 925.1}
+  m_AnchoredPosition: {x: 1.0000305, y: -0.500885}
+  m_SizeDelta: {x: 1922, y: 926.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1498768601
 MonoBehaviour:
@@ -9638,10 +9645,10 @@ RectTransform:
   m_Father: {fileID: 2017314935}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 187.35, y: -344.95}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1829485679
 MonoBehaviour:
@@ -9686,8 +9693,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1829485682}
-        m_MethodName: EnteredPin
+      - m_Target: {fileID: 71722419}
+        m_MethodName: EnteredResult
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9742,10 +9749,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1829485677}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca6c3c4def5cc64c892f17c1182a5db, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f9bcc268458cc94ba40734252a8cf46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinInput: 
+  randomNumber1: 0
+  randomNumber2: 0
 --- !u!1 &1850171737
 GameObject:
   m_ObjectHideFlags: 0
@@ -10103,10 +10111,10 @@ RectTransform:
   m_Father: {fileID: 2017314935}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 97.350006, y: -74.95}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887028594
 MonoBehaviour:
@@ -10151,8 +10159,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1887028597}
-        m_MethodName: EnteredPin
+      - m_Target: {fileID: 71722419}
+        m_MethodName: EnteredResult
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10207,10 +10215,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1887028592}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca6c3c4def5cc64c892f17c1182a5db, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f9bcc268458cc94ba40734252a8cf46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinInput: 
+  randomNumber1: 0
+  randomNumber2: 0
 --- !u!1 &1916626111
 GameObject:
   m_ObjectHideFlags: 0
@@ -10246,10 +10255,10 @@ RectTransform:
   m_Father: {fileID: 2017314935}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 187.35, y: -164.95}
-  m_SizeDelta: {x: 80, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1916626113
 MonoBehaviour:
@@ -10294,8 +10303,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1916626116}
-        m_MethodName: EnteredPin
+      - m_Target: {fileID: 71722419}
+        m_MethodName: EnteredResult
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10350,10 +10359,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1916626111}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca6c3c4def5cc64c892f17c1182a5db, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f9bcc268458cc94ba40734252a8cf46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pinInput: 
+  randomNumber1: 0
+  randomNumber2: 0
 --- !u!1 &1938246971
 GameObject:
   m_ObjectHideFlags: 0
@@ -10397,7 +10407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00001680021, y: 0.0008428818}
+  m_AnchoredPosition: {x: 0.00001680021, y: 0.0007439418}
   m_SizeDelta: {x: 0, y: 925.1}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1965605472
@@ -10779,7 +10789,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

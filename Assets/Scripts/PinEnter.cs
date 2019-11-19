@@ -7,27 +7,31 @@ using UnityEngine.SceneManagement;
 public class PinEnter : MonoBehaviour
 {
 
-    public string pinInput = "";
 
+    public string pin;
     public void EnteredPin(int numberPressed)
     {
-        pinInput = string.Concat(numberPressed.ToString());
-        Debug.Log(pinInput);
-        if(pinInput.Length == 4)
+        Global.inputPin = Global.inputPin + numberPressed.ToString();
+        Debug.Log(Global.inputPin);
+        if(Global.inputPin.Length >= 4)
         {
             Validation();
+            
         }
     }
 
     public void Validation()
     {
-        if (int.Parse(pinInput) == 1234)
+        if (int.Parse(Global.inputPin) == 1234)
         {
             Debug.Log("Drinnen");
+            Global.inputPin = "";
+            SceneManager.LoadScene(sceneName: "ParentStart");
         }
         else
         {
             Debug.Log("Falsche Pin");
+            Global.inputPin = "";
         }
     }
     // Start is called before the first frame update
