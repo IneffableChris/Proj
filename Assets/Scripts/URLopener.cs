@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class URLopener : MonoBehaviour
 {
-    public void OpenLoonityWebsite()
+    public void OpenWebsite(string URL)
     {
-        Application.OpenURL("http://flock-1430.students.fhstp.ac.at/");
+        Application.OpenURL(URL);
     }
 }
